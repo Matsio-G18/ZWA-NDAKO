@@ -1,0 +1,613 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "Gesloc.asgi",
+        "description": "Gesloc.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "Gesloc.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "Gesloc.settings",
+        "description": "Gesloc.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-v(m06d&%3ctb-@2g0yyzcz67_!hnj)^6smg)oxp%&_bl*$0vzm'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "Gesloc.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "Gesloc.settings",
+        "description": "Gesloc.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-v(m06d&%3ctb-@2g0yyzcz67_!hnj)^6smg)oxp%&_bl*$0vzm'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'grappelli',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
+        "detail": "Gesloc.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "Gesloc.settings",
+        "description": "Gesloc.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'grappelli',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
+        "detail": "Gesloc.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "Gesloc.settings",
+        "description": "Gesloc.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'grappelli',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "Gesloc.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "Gesloc.settings",
+        "description": "Gesloc.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'grappelli',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'location',\n]",
+        "detail": "Gesloc.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "Gesloc.settings",
+        "description": "Gesloc.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'Gesloc.urls'",
+        "detail": "Gesloc.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "Gesloc.settings",
+        "description": "Gesloc.settings",
+        "peekOfCode": "ROOT_URLCONF = 'Gesloc.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "Gesloc.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "Gesloc.settings",
+        "description": "Gesloc.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "Gesloc.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "Gesloc.settings",
+        "description": "Gesloc.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'Gesloc.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.mysql',\n        'NAME': 'gesloc',\n        'USER': 'root',           # ou un autre utilisateur\n        'PASSWORD': '',\n        'HOST': 'localhost',",
+        "detail": "Gesloc.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "Gesloc.settings",
+        "description": "Gesloc.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.mysql',\n        'NAME': 'gesloc',\n        'USER': 'root',           # ou un autre utilisateur\n        'PASSWORD': '',\n        'HOST': 'localhost',\n        'PORT': '3306',\n    }\n}",
+        "detail": "Gesloc.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "Gesloc.settings",
+        "description": "Gesloc.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "Gesloc.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "Gesloc.settings",
+        "description": "Gesloc.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    BASE_DIR / \"static\",\n]",
+        "detail": "Gesloc.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "Gesloc.settings",
+        "description": "Gesloc.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    BASE_DIR / \"static\",\n]\nSTATIC_ROOT = BASE_DIR / \"staticfiles\"",
+        "detail": "Gesloc.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "Gesloc.settings",
+        "description": "Gesloc.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    BASE_DIR / \"static\",\n]\nSTATIC_ROOT = BASE_DIR / \"staticfiles\"\n# Default primary key field type",
+        "detail": "Gesloc.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "Gesloc.settings",
+        "description": "Gesloc.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    BASE_DIR / \"static\",\n]\nSTATIC_ROOT = BASE_DIR / \"staticfiles\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field",
+        "detail": "Gesloc.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "Gesloc.settings",
+        "description": "Gesloc.settings",
+        "peekOfCode": "STATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    BASE_DIR / \"static\",\n]\nSTATIC_ROOT = BASE_DIR / \"staticfiles\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "Gesloc.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "Gesloc.settings",
+        "description": "Gesloc.settings",
+        "peekOfCode": "STATICFILES_DIRS = [\n    BASE_DIR / \"static\",\n]\nSTATIC_ROOT = BASE_DIR / \"staticfiles\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "Gesloc.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_ROOT",
+        "kind": 5,
+        "importPath": "Gesloc.settings",
+        "description": "Gesloc.settings",
+        "peekOfCode": "STATIC_ROOT = BASE_DIR / \"staticfiles\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "Gesloc.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "Gesloc.settings",
+        "description": "Gesloc.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "Gesloc.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "Gesloc.urls",
+        "description": "Gesloc.urls",
+        "peekOfCode": "urlpatterns = [\n    path('grappelli/', include('grappelli.urls')),  # grappelli URLS\n    path('admin/', admin.site.urls),\n    path('', include('location.urls')),\n]",
+        "detail": "Gesloc.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "Gesloc.wsgi",
+        "description": "Gesloc.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "Gesloc.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "location.migrations.0001_initial",
+        "description": "location.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Contrat',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('date_debut', models.DateField()),",
+        "detail": "location.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "MaisonAdmin",
+        "kind": 6,
+        "importPath": "location.admin",
+        "description": "location.admin",
+        "peekOfCode": "class MaisonAdmin(admin.ModelAdmin):\n    list_display = ('adresse', 'loyer', 'statut')\n    list_filter = ('statut',)\n    search_fields = ('adresse',)\n    ordering = ('adresse',)\nclass LocataireAdmin(admin.ModelAdmin):\n    list_display = ('nom', 'email', 'telephone')\n    search_fields = ('nom', 'email')\nclass ContratAdmin(admin.ModelAdmin):\n    list_display = ('maison', 'locataire', 'date_debut', 'date_fin')",
+        "detail": "location.admin",
+        "documentation": {}
+    },
+    {
+        "label": "LocataireAdmin",
+        "kind": 6,
+        "importPath": "location.admin",
+        "description": "location.admin",
+        "peekOfCode": "class LocataireAdmin(admin.ModelAdmin):\n    list_display = ('nom', 'email', 'telephone')\n    search_fields = ('nom', 'email')\nclass ContratAdmin(admin.ModelAdmin):\n    list_display = ('maison', 'locataire', 'date_debut', 'date_fin')\n    list_filter = ('date_debut', 'date_fin')\n    search_fields = ('maison__adresse', 'locataire__nom')\nclass PaiementAdmin(admin.ModelAdmin):\n    list_display = ('contrat', 'date', 'montant')\n    list_filter = ('date',)",
+        "detail": "location.admin",
+        "documentation": {}
+    },
+    {
+        "label": "ContratAdmin",
+        "kind": 6,
+        "importPath": "location.admin",
+        "description": "location.admin",
+        "peekOfCode": "class ContratAdmin(admin.ModelAdmin):\n    list_display = ('maison', 'locataire', 'date_debut', 'date_fin')\n    list_filter = ('date_debut', 'date_fin')\n    search_fields = ('maison__adresse', 'locataire__nom')\nclass PaiementAdmin(admin.ModelAdmin):\n    list_display = ('contrat', 'date', 'montant')\n    list_filter = ('date',)\n    search_fields = ('contrat__maison__adresse',)\nclass IncidentAdmin(admin.ModelAdmin):\n    list_display = ('maison', 'statut', 'date_signalement')",
+        "detail": "location.admin",
+        "documentation": {}
+    },
+    {
+        "label": "PaiementAdmin",
+        "kind": 6,
+        "importPath": "location.admin",
+        "description": "location.admin",
+        "peekOfCode": "class PaiementAdmin(admin.ModelAdmin):\n    list_display = ('contrat', 'date', 'montant')\n    list_filter = ('date',)\n    search_fields = ('contrat__maison__adresse',)\nclass IncidentAdmin(admin.ModelAdmin):\n    list_display = ('maison', 'statut', 'date_signalement')\n    list_filter = ('statut',)\n    search_fields = ('maison__adresse', 'description')\n    readonly_fields = ('date_signalement',)\n    list_display_links = ('maison',)",
+        "detail": "location.admin",
+        "documentation": {}
+    },
+    {
+        "label": "IncidentAdmin",
+        "kind": 6,
+        "importPath": "location.admin",
+        "description": "location.admin",
+        "peekOfCode": "class IncidentAdmin(admin.ModelAdmin):\n    list_display = ('maison', 'statut', 'date_signalement')\n    list_filter = ('statut',)\n    search_fields = ('maison__adresse', 'description')\n    readonly_fields = ('date_signalement',)\n    list_display_links = ('maison',)\n    actions = ['mark_as_resolved']\n    def mark_as_resolved(self, request, queryset):\n        updated = queryset.update(statut='Résolu')\n        self.message_user(request, f\"{updated} incident(s) mis à jour en 'Résolu'.\")",
+        "detail": "location.admin",
+        "documentation": {}
+    },
+    {
+        "label": "LocationConfig",
+        "kind": 6,
+        "importPath": "location.apps",
+        "description": "location.apps",
+        "peekOfCode": "class LocationConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'location'",
+        "detail": "location.apps",
+        "documentation": {}
+    },
+    {
+        "label": "MaisonForm",
+        "kind": 6,
+        "importPath": "location.forms",
+        "description": "location.forms",
+        "peekOfCode": "class MaisonForm(forms.ModelForm):\n    class Meta:\n        model = Maison\n        fields = '__all__'\nclass LocataireForm(forms.ModelForm):\n    class Meta:\n        model = Locataire\n        fields = '__all__'\nclass ContratForm(forms.ModelForm):\n    class Meta:",
+        "detail": "location.forms",
+        "documentation": {}
+    },
+    {
+        "label": "LocataireForm",
+        "kind": 6,
+        "importPath": "location.forms",
+        "description": "location.forms",
+        "peekOfCode": "class LocataireForm(forms.ModelForm):\n    class Meta:\n        model = Locataire\n        fields = '__all__'\nclass ContratForm(forms.ModelForm):\n    class Meta:\n        model = Contrat\n        fields = '__all__'\nclass PaiementForm(forms.ModelForm):\n    class Meta:",
+        "detail": "location.forms",
+        "documentation": {}
+    },
+    {
+        "label": "ContratForm",
+        "kind": 6,
+        "importPath": "location.forms",
+        "description": "location.forms",
+        "peekOfCode": "class ContratForm(forms.ModelForm):\n    class Meta:\n        model = Contrat\n        fields = '__all__'\nclass PaiementForm(forms.ModelForm):\n    class Meta:\n        model = Paiement\n        fields = '__all__'\nclass IncidentForm(forms.ModelForm):\n    class Meta:",
+        "detail": "location.forms",
+        "documentation": {}
+    },
+    {
+        "label": "PaiementForm",
+        "kind": 6,
+        "importPath": "location.forms",
+        "description": "location.forms",
+        "peekOfCode": "class PaiementForm(forms.ModelForm):\n    class Meta:\n        model = Paiement\n        fields = '__all__'\nclass IncidentForm(forms.ModelForm):\n    class Meta:\n        model = Incident\n        fields = '__all__'",
+        "detail": "location.forms",
+        "documentation": {}
+    },
+    {
+        "label": "IncidentForm",
+        "kind": 6,
+        "importPath": "location.forms",
+        "description": "location.forms",
+        "peekOfCode": "class IncidentForm(forms.ModelForm):\n    class Meta:\n        model = Incident\n        fields = '__all__'",
+        "detail": "location.forms",
+        "documentation": {}
+    },
+    {
+        "label": "Maison",
+        "kind": 6,
+        "importPath": "location.models",
+        "description": "location.models",
+        "peekOfCode": "class Maison(models.Model):\n    adresse = models.CharField(max_length=255)\n    description = models.TextField()\n    loyer = models.DecimalField(max_digits=10, decimal_places=2)\n    statut = models.CharField(max_length=50, choices=[('libre', 'Libre'), ('occupé', 'Occupé')])\n    def __str__(self):\n        return self.adresse\nclass Locataire(models.Model):\n    nom = models.CharField(max_length=100)\n    email = models.EmailField()",
+        "detail": "location.models",
+        "documentation": {}
+    },
+    {
+        "label": "Locataire",
+        "kind": 6,
+        "importPath": "location.models",
+        "description": "location.models",
+        "peekOfCode": "class Locataire(models.Model):\n    nom = models.CharField(max_length=100)\n    email = models.EmailField()\n    telephone = models.CharField(max_length=20)\n    def __str__(self):\n        return self.nom\nclass Contrat(models.Model):\n    maison = models.ForeignKey(Maison, on_delete=models.CASCADE)\n    locataire = models.ForeignKey(Locataire, on_delete=models.CASCADE)\n    date_debut = models.DateField()",
+        "detail": "location.models",
+        "documentation": {}
+    },
+    {
+        "label": "Contrat",
+        "kind": 6,
+        "importPath": "location.models",
+        "description": "location.models",
+        "peekOfCode": "class Contrat(models.Model):\n    maison = models.ForeignKey(Maison, on_delete=models.CASCADE)\n    locataire = models.ForeignKey(Locataire, on_delete=models.CASCADE)\n    date_debut = models.DateField()\n    date_fin = models.DateField()\n    def __str__(self):\n        return f\"Contrat de {self.locataire.nom} pour {self.maison.adresse}\"\nclass Paiement(models.Model):\n    contrat = models.ForeignKey(Contrat, on_delete=models.CASCADE)\n    date = models.DateField()",
+        "detail": "location.models",
+        "documentation": {}
+    },
+    {
+        "label": "Paiement",
+        "kind": 6,
+        "importPath": "location.models",
+        "description": "location.models",
+        "peekOfCode": "class Paiement(models.Model):\n    contrat = models.ForeignKey(Contrat, on_delete=models.CASCADE)\n    date = models.DateField()\n    montant = models.DecimalField(max_digits=10, decimal_places=2)\n    def __str__(self):\n        return f\"{self.date} - {self.montant}€\"\nclass Incident(models.Model):\n    maison = models.ForeignKey(Maison, on_delete=models.CASCADE)\n    description = models.TextField()\n    date_signalement = models.DateField()",
+        "detail": "location.models",
+        "documentation": {}
+    },
+    {
+        "label": "Incident",
+        "kind": 6,
+        "importPath": "location.models",
+        "description": "location.models",
+        "peekOfCode": "class Incident(models.Model):\n    maison = models.ForeignKey(Maison, on_delete=models.CASCADE)\n    description = models.TextField()\n    date_signalement = models.DateField()\n    statut = models.CharField(max_length=50, choices=[('en attente', 'En attente'), ('résolu', 'Résolu')])\n    def __str__(self):\n        return f\"Incident {self.maison.adresse} - {self.statut}\"",
+        "detail": "location.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "location.urls",
+        "description": "location.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', views.home, name='home'),\n    path('maisons/', views.liste_maisons, name='liste_maisons'),\n    path('locataires/', views.liste_locataires, name='liste_locataires'),\n    path('paiements/', views.liste_paiements, name='liste_paiements'),\n    path('contrats/', views.liste_contrats, name='liste_contrats'),\n    path('incidents/', views.liste_incidents, name='liste_incidents'),\n    path('ajouter_maison/', views.ajouter_maison, name='ajouter_maison'),\n]",
+        "detail": "location.urls",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "location.views",
+        "description": "location.views",
+        "peekOfCode": "def home(request):\n    context = {\n        'maisons_count': Maison.objects.count(),\n        'locataires_count': Locataire.objects.count(),\n        'contrats_count': Contrat.objects.count(),\n        'paiements_count': Paiement.objects.count(),\n    }\n    return render(request, 'location/home.html', context)\nfrom django.shortcuts import render, redirect\nfrom .models import Maison, Locataire, Paiement, Contrat, Incident",
+        "detail": "location.views",
+        "documentation": {}
+    },
+    {
+        "label": "ajouter_maison",
+        "kind": 2,
+        "importPath": "location.views",
+        "description": "location.views",
+        "peekOfCode": "def ajouter_maison(request):\n    if request.method == 'POST':\n        form = MaisonForm(request.POST)\n        if form.is_valid():\n            form.save()\n            return redirect('liste_maisons')  # redirige vers une vue de liste\n    else:\n        form = MaisonForm()\n    return render(request, 'location/ajouter_maisons.html', {'form': form})\ndef liste_maisons(request):",
+        "detail": "location.views",
+        "documentation": {}
+    },
+    {
+        "label": "liste_maisons",
+        "kind": 2,
+        "importPath": "location.views",
+        "description": "location.views",
+        "peekOfCode": "def liste_maisons(request):\n    maisons = Maison.objects.all()\n    return render(request, 'location/maisons.html', {'maisons': maisons})\ndef liste_locataires(request):\n    locataires = Locataire.objects.all()\n    return render(request, 'location/locataires.html', {'locataires': locataires})\ndef liste_paiements(request):\n    paiements = Paiement.objects.all()\n    return render(request, 'location/paiements.html', {'paiements': paiements})\ndef liste_contrats(request):",
+        "detail": "location.views",
+        "documentation": {}
+    },
+    {
+        "label": "liste_locataires",
+        "kind": 2,
+        "importPath": "location.views",
+        "description": "location.views",
+        "peekOfCode": "def liste_locataires(request):\n    locataires = Locataire.objects.all()\n    return render(request, 'location/locataires.html', {'locataires': locataires})\ndef liste_paiements(request):\n    paiements = Paiement.objects.all()\n    return render(request, 'location/paiements.html', {'paiements': paiements})\ndef liste_contrats(request):\n    contrats = Contrat.objects.all()\n    return render(request, 'location/contrats.html', {'contrats': contrats})\ndef liste_incidents(request):",
+        "detail": "location.views",
+        "documentation": {}
+    },
+    {
+        "label": "liste_paiements",
+        "kind": 2,
+        "importPath": "location.views",
+        "description": "location.views",
+        "peekOfCode": "def liste_paiements(request):\n    paiements = Paiement.objects.all()\n    return render(request, 'location/paiements.html', {'paiements': paiements})\ndef liste_contrats(request):\n    contrats = Contrat.objects.all()\n    return render(request, 'location/contrats.html', {'contrats': contrats})\ndef liste_incidents(request):\n    incidents = Incident.objects.all()\n    return render(request, 'location/incidents.html', {'incidents': incidents})",
+        "detail": "location.views",
+        "documentation": {}
+    },
+    {
+        "label": "liste_contrats",
+        "kind": 2,
+        "importPath": "location.views",
+        "description": "location.views",
+        "peekOfCode": "def liste_contrats(request):\n    contrats = Contrat.objects.all()\n    return render(request, 'location/contrats.html', {'contrats': contrats})\ndef liste_incidents(request):\n    incidents = Incident.objects.all()\n    return render(request, 'location/incidents.html', {'incidents': incidents})",
+        "detail": "location.views",
+        "documentation": {}
+    },
+    {
+        "label": "liste_incidents",
+        "kind": 2,
+        "importPath": "location.views",
+        "description": "location.views",
+        "peekOfCode": "def liste_incidents(request):\n    incidents = Incident.objects.all()\n    return render(request, 'location/incidents.html', {'incidents': incidents})",
+        "detail": "location.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Gesloc.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]

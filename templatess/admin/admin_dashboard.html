@@ -1,0 +1,61 @@
+{% extends "admin/base_site.html" %}
+{% load static %}
+
+{% block title %}Tableau de bord{% endblock %}
+
+{% block extrastyle %}
+<link rel="stylesheet" href="{% static 'css/admin.css' %}">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+{% endblock %}
+
+{% block content %}
+<div class="dashboard-container">
+    <h1 class="dashboard-title">📊 Tableau de bord - Gesloc</h1>
+
+    <div class="stats-grid">
+        <div class="card">
+            <h2>{{ maisons_count }}</h2>
+            <p>Maisons</p>
+        </div>
+        <div class="card">
+            <h2>{{ locataires_count }}</h2>
+            <p>Locataires</p>
+        </div>
+        <div class="card">
+            <h2>{{ incidents_ouverts }}</h2>
+            <p>Incidents Ouverts</p>
+        </div>
+        <div class="card">
+            <h2>{{ incidents_resolus }}</h2>
+            <p>Incidents Résolus</p>
+        </div>
+    </div>
+
+    <canvas id="incidentChart" width="400" height="200"></canvas>
+</div>
+
+<script>
+    const ctx = document.getElementById('incidentChart').getContext('2d');
+    const incidentChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ['Ouverts', 'Résolus'],
+            datasets: [{
+                label: 'Incidents',
+                data: [{{ incidents_ouverts }}, {{ incidents_resolus }}],
+                backgroundColor: ['#f87171', '#34d399'],
+                borderColor: '#fff',
+                borderWidth: 2
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: {
+                    position: 'bottom'
+                }
+            }
+        }
+    });
+</script>
+{% endblock %}

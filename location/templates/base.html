@@ -1,0 +1,142 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <title>{% block title %}Gesloc{% endblock %}</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}" />
+    <link rel="stylesheet" href="{% static 'font-awesome/css/font-awesome.min.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/font-awesome.css' %}" />
+    <style>
+        body {
+            background-image: url("{% static 'images/brazzamaison.jpg' %}");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+            color: white;
+        }
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.6);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .top-header {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 5px 30px;
+            font-size: 0.9rem;
+        }
+        .top-header i {
+            margin-right: 5px;
+        }
+        nav.navbar {
+            background-color: rgba(0, 0, 0, 0.6);
+            border-bottom: 1px solid #ffc107;
+        }
+        nav a {
+            color: white;
+            font-weight: 500;
+        }
+        nav a:hover {
+            color: #ffc107;
+            text-decoration: none;
+        }
+        .container {
+            margin-top: auto;
+            margin-bottom: auto;
+            text-align: center;
+        }
+        .btn-gesloc {
+            background-color: #ffc107;
+            color: black;
+            font-weight: 600;
+        }
+        .btn-gesloc:hover {
+            background-color: #e0a800;
+            color: black;
+        }
+        .section-maisons {
+            margin: 60px auto;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+        .card-maison {
+            background-color: rgba(255, 255, 255, 0.1);
+            border: 1px solid #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            width: 300px;
+        }
+        .card-maison img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card-maison h5 {
+            margin: 0;
+            padding: 15px;
+            background-color: rgba(0, 0, 0, 0.7);
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 10px;
+            font-size: 0.9rem;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-top: 1px solid #ffc107;
+        }
+        footer .footer-links a {
+            color: #ffc107;
+            margin: 0 10px;
+        }
+        footer .footer-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/a2c9d7c8b4.js" crossorigin="anonymous"></script> <!-- Font Awesome -->
+</head>
+<body>
+    <div class="d-flex flex-column min-vh-100">
+        <!-- Header Réseaux sociaux et téléphone -->
+        <div class="top-header d-flex justify-content-between align-items-center">
+            <div>
+                <i class="fas fa-phone-alt"></i> +242 06 000 0000
+            </div>
+            <div>
+                <a href="#" class="text-white me-4"><i class=" fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white me-4"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white me-4"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary px-5 pt-3">
+            <img src="{% static 'images/14751241-removebg-preview.png' %}" class="p-8" alt="Logo" width="280" height="95" class="me-3">
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="{% url 'home' %}" class="nav-link">Accueil</a></li>
+                    <li class="nav-item"><a href="{% url 'liste_maisons' %}" class="nav-link">Maisons</a></li>
+                    <li class="nav-item"><a href="{% url 'liste_locataires' %}" class="nav-link">Locataires</a></li>
+                    <li class="nav-item"><a href="{% url 'liste_contrats' %}" class="nav-link">Contrats</a></li>
+                    <li class="nav-item"><a href="{% url 'liste_paiements' %}" class="nav-link">Paiements</a></li>
+                    <li class="nav-item"><a href="{% url 'liste_incidents' %}" class="nav-link">Incidents</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- CONTENU DES PAGES -->
+        <main class="container my-4 flex-grow-1">
+            {% block content %}{% endblock %}
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="text-center py-3 text-muted">
+            &copy; 2025 Gesloc - Tous droits réservés.
+        </footer>
+
+    </body>
+</html>
