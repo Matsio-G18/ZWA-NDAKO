@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Accueil - ZWA NDAKO{% endblock %}
+
+{% block content %}
+    <!-- Contenu principal -->
+    <div class="container py-5">
+        <h1 class="display-3 fw-bold mb-4">Bienvenue sur ZWA NDAKO</h1>
+        <p class="lead mb-4">Votre plateforme de gestion des maisons en location simple et efficace.</p>
+        <a href="{% url 'liste_maisons' %}" class="btn btn-gesloc btn-lg me-3">Voir les maisons</a>
+        <a href="{% url 'ajouter_maison' %}" class="btn btn-outline-light btn-lg">Ajouter une maison</a>
+    </div>
+
+    <!-- Section Maisons -->
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Situation de nos maisons actuelle</h2>
+        <div class="row g-4">
+            {% for maison in maisons %}
+            <div class="col-md-6 col-lg-3">
+                <div class="card text-white bg-dark h-100 border-light shadow">
+                    {% if maison.image %}
+                        <img src="{{ maison.image.url }}" class="card-img-top" alt="Maison {{ maison.id }}">
+                    {% else %}
+                        <img src="{% static 'images/maison-4a-chambres-a.jpg' %}" class="card-img-top" alt="Maison">
+                    {% endif %}
+                    <div class="card-body">
+                        <h5 class="card-title d-flex justify-content-between align-items-center">
+                            <span>Maison</span>
+                            <span class="badge {% if maison.statut == 'libre' %}bg-success{% else %}bg-secondary{% endif %}">
+                                {{ maison.statut|title }}
+                            </span>
+                        </h5>
+                        <p class="card-text"><i class="fas fa-phone-alt me-2"></i>{{ maison.telephone }}</p>
+                        <p class="card-text"><i class="fas fa-map-marker-alt me-2"></i>{{ maison.adresse }}</p>
+                    </div>
+                </div>
+            </div>
+            {% empty %}
+            <p class="text-center">Aucune maison disponible pour le moment.</p>
+            {% endfor %}
+        </div>
+    </div>
+
+{% endblock %}

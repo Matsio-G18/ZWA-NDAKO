@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Accueil - ZWA NDAKO{% endblock %}
+
+{% block content %}
+ 
+    <div class="container py-5">
+      <div class="card shadow-lg">
+        <div class="card-header bg-primary text-white">
+          <h2 class="mb-0">Liste des locataires</h2>
+        </div>
+        <div class="card-body">
+          {% if locataires %}
+            <table class="table table-hover align-middle">
+              <thead class="table-light">
+                <tr>
+                  <th>Nom</th>
+                  <th>Email</th>
+                  <th>Téléphone</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for locataire in locataires %}
+                  <tr>
+                    <td>{{ locataire.nom }}</td>
+                    <td>{{ locataire.email }}</td>
+                    <td>{{ locataire.telephone }}</td>
+                  </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          {% else %}
+            <p class="text-muted">Aucun locataire enregistré pour le moment.</p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,18 @@
+body {
+    font-size: 1.25rem; /* Agrandir la police globale */
+}
+h1 {
+    font-size: 3rem; /* Gros titre */
+    }
+nav a {
+    font-size: 1.2rem;
+}
+.stat-number {
+    font-size: 2rem;
+    font-weight: bold;
+ }
+
+
+.table th, .table td {
+    font-size: 18px;
+}

@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Ajouter une maison - ZWA NDAKO{% endblock %}
+
+{% block content %}
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card shadow rounded">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0">Ajouter une maison</h4>
+                </div>
+                <div class="card-body">
+                    <form method="post" enctype="multipart/form-data">
+                        {% csrf_token %}
+                        {{ maison_form.as_p }}
+                        {{ images_form.as_p }}
+                        <button type="submit">Ajouter</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

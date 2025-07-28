@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Liste des maisons - ZWA NDAKO{% endblock %}
+
+{% block content %}
+    
+    <div class="container py-5">
+    <div class="card shadow-lg">
+        <div class="card-header bg-primary text-white">
+            <h2 class="mb-0">Liste des maisons</h2>
+        </div>
+        <div class="card-body">
+            {% if maisons %}
+            <table class="table table-hover align-middle">
+                <thead class="table-light">
+                    <tr>
+                        <th>Adresse</th>
+                        <th>Description</th>
+                        <th>Loyer</th>
+                        <th>Statut</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for maison in maisons %}
+                    <tr class="{% if maison.statut == 'occupé' %}table-danger{% else %}table-success{% endif %}">
+                        <td>{{ maison.adresse }}</td>
+                        <td>{{ maison.description }}</td>
+                        <td>{{ maison.loyer }} fr</td>
+                        <td>
+                            <span class="badge {% if maison.statut == 'occupé' %}bg-danger{% else %}bg-success{% endif %}">
+                                {{ maison.statut|capfirst }}
+                            </span>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            {% else %}
+                <p class="text-muted">Aucune maison enregistrée pour le moment.</p>
+            {% endif %}
+        </div>
+    </div>
+    </div>
+{% endblock %}
+
